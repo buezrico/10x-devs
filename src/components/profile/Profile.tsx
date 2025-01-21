@@ -1,4 +1,4 @@
-import rico from "../assets/rico.jpg";
+import rico from "../../assets/rico.jpg";
 import Skill from "./Skill";
 
 const Profile = () => {
