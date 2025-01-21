@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router";
-import Profile from "./pages/Profile";
-import ProductPage from "./pages/ProductPage";
 import SignUp from "./pages/signUp";
+import Profile from "./pages/profile";
+import ProductPage from "./pages/productPage";
 
 function App() {
   return (
