@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router";
 import SignUp from "./pages/signUp";
 import Profile from "./pages/profile";
-import ProductPage from "./pages/productPage";
+import ProductPage from "./pages/ProductPage";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
               <a href="/product">Product Page</a>
             </li>
             <li>
-              <a href="/sign-up">
+              <a href="/">
                 <button className="bg-blue-500 hover:bg-blue-800 py-2 px-8 rounded text-white text-base font-semibold">
                   Sign Up
                 </button>
@@ -33,7 +33,7 @@ function App() {
         <Routes>
           <Route path="profile" element={<Profile />} />
           <Route path="product" element={<ProductPage />} />
-          <Route path="sign-up" element={<SignUp />} />
+          <Route path="/" element={<SignUp />} />
         </Routes>
       </main>
     </>
