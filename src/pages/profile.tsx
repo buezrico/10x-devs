@@ -1,5 +1,5 @@
-import rico from "../../assets/rico.jpg";
-import Skill from "./Skill";
+import rico from "../assets/rico.jpg";
+import Skill from "../components/profile/Skill";
 
 const Profile = () => {
   return (

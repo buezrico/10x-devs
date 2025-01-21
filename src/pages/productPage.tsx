@@ -2,11 +2,11 @@ import { useState } from "react";
 import { FaCircleUser } from "react-icons/fa6";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { toast, ToastContainer } from "react-toastify";
-import item1 from "../../assets/item1.png";
-import item2 from "../../assets/item2.png";
-import item3 from "../../assets/item3.png";
-import item4 from "../../assets/item4.png";
-import Navbar from "./Navbar";
+import item1 from "../assets/item1.png";
+import item2 from "../assets/item2.png";
+import item3 from "../assets/item3.png";
+import item4 from "../assets/item4.png";
+import Navbar from "../components/product/Navbar";
 
 const ProductPage = () => {
   const [quantity, setQuantity] = useState<number>(1);
