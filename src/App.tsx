@@ -6,6 +6,7 @@ import SignUp from "./pages/SignUp";
 function App() {
   return (
     <>
+      // ADDED NEW BRANCH "RICO"
       <nav className="h-16 w-full flex justify-center fixed top-0 left-0 bg-white shadow-lg shadow-blue-500 z-50">
         <div className="w-[90%] flex gap-12 items-center justify-between">
           <h1 className="hidden md:flex text-lg md:text-2xl italic font-semibold text-blue-600">
@@ -28,7 +29,6 @@ function App() {
           </ul>
         </div>
       </nav>
-
       <main className="mt-16">
         <Routes>
           <Route path="profile" element={<Profile />} />
